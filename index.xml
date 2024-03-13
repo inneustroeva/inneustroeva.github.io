@@ -33,6 +33,63 @@
     </item>
     
     <item>
+      <title>Git</title>
+      <link>https://example.com/post/git/</link>
+      <pubDate>Thu, 14 Mar 2024 01:02:14 +0300</pubDate>
+      <guid>https://example.com/post/git/</guid>
+      <description>&lt;h1 id=&#34;version-control-git&#34;&gt;&amp;ldquo;Version control Git&amp;rdquo;&lt;/h1&gt;
+&lt;p&gt;The version control system tracks the history of changes in the process of collaboration on projects.
+As developers make changes to the project, you can restore any earlier version of it at any time.&lt;/p&gt;
+&lt;p&gt;Developers can view the project log to find out the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;what changes have been made;&lt;/li&gt;
+&lt;li&gt;who made the changes;&lt;/li&gt;
+&lt;li&gt;what changes have been made;&lt;/li&gt;
+&lt;li&gt;why the changes were needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A GIT repository or project includes a complete set of files and folders associated with the project, as well as a change log of each file.
+The file log is presented as snapshots at specific points in time. These snapshots are called fixations.
+Commits can be organized along several lines of development, called branches.
+Since GIT is a distributed version control system, repositories are autonomous units and any user who has a copy of the repository can access the entire code base and its history. U
+sing the command line or other convenient interfaces, the following actions are also possible with the GIT repository:
+interacting with the log, cloning the repository, creating branches, committing, merging, comparing changes in different versions of the code, and much more.&lt;/p&gt;
+&lt;p&gt;When working with GIT, developers use specific commands to copy, create, modify, and merge code.
+These commands can be executed directly from the command line or using an application such as GitHub Desktop.
+Below are some common commands for working with GIT.&lt;/p&gt;
+&lt;p&gt;git init — initializes a new GIT repository and starts tracking the existing directory.
+A hidden subfolder is added to the existing directory, which houses the internal data structure needed for version control.&lt;/p&gt;
+&lt;p&gt;git clone — creates a local copy of a project that already exists remotely.
+The clone includes all project files, log and branches.&lt;/p&gt;
+&lt;p&gt;git add — prepares the change. GIT tracks changes in the developer&amp;rsquo;s code base&lt;/p&gt;
+&lt;p&gt;git commit — saves a snapshot in the project log and completes the change tracking process.&lt;/p&gt;
+&lt;p&gt;git status — выводит состояние изменений: не отслеживаются, изменены или подготовлены.&lt;/p&gt;
+&lt;p&gt;git branch — показывает ветви, с которыми ведется локальная работа.&lt;/p&gt;
+&lt;p&gt;git merge — выполняет слияние линий разработки. Эта команда обычно применяется для объединения изменений, внесенных в двух разных ветвях&lt;/p&gt;
+&lt;p&gt;git push — обновляет удаленный репозиторий с учетом фиксаций, выполненных в ветви локально.&lt;/p&gt;
+&lt;p&gt;There are two main ways to collaborate on GitHub:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;shared repository;&lt;/li&gt;
+&lt;li&gt;creating forks and pulling.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In the case of a shared repository, individual users and teams are explicitly assigned by participants with read, write, or administrative access. T
+his simple permission structure, combined with features such as protected branches, helps teams get started quickly after implementing GitHub.&lt;/p&gt;
+&lt;p&gt;For open source projects or projects in which any user can participate, managing individual permissions can be a daunting task. In this case, a fork-and-pull model is more convenient, which allows everyone who can view the project to participate in it. A fork is a copy of the project in the developer&amp;rsquo;s personal account. Each developer has full control over the fork and is free to implement a fix or a new feature. The results of work in forks are either stored separately or transferred back to the original project using a pull request.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Last_week</title>
+      <link>https://example.com/post/last_week/</link>
+      <pubDate>Wed, 13 Mar 2024 23:14:44 +0300</pubDate>
+      <guid>https://example.com/post/last_week/</guid>
+      <description>&lt;h2 id=&#34;this-week-has-been-productive&#34;&gt;This week has been productive&lt;/h2&gt;
+&lt;p&gt;Thank you for reading this post. I would like to tell you how I spent this week. I&amp;rsquo;ve been very productive this week.
+I managed to do my homework, I did the cleaning lady, the boys also congratulated us on March 8 and presented us with a box of chocolates.&lt;/p&gt;
+&lt;p&gt;Next week I plan to be more productive and have time to meet with friends.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Blog with Jupyter Notebooks!</title>
       <link>https://example.com/post/blog-with-jupyter/</link>
       <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
@@ -263,7 +320,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-736219845&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-681354972&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -273,7 +330,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-736219845&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-681354972&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
