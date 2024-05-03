@@ -5,7 +5,7 @@
     <link>http://localhost:1313/post/</link>
       <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Apr 2024 21:33:08 +0300</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 May 2024 12:15:57 +0300</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
@@ -13,11 +13,69 @@
     </image>
     
     <item>
-      <title>Last_week2</title>
+      <title>Programming_and_science 📊📖💻⌨️🖱</title>
+      <link>http://localhost:1313/post/programming_and_science/</link>
+      <pubDate>Fri, 03 May 2024 12:15:57 +0300</pubDate>
+      <guid>http://localhost:1313/post/programming_and_science/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This post is dedicated to scientific programming languages. Everyone knows, scientific programming is an important field that involves the creation and use of software for scientific modeling, data analysis and computation. Many programming languages have been created for these purposes.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-scientific-programming&#34;&gt;What is scientific programming?&lt;/h2&gt;
+&lt;p&gt;Scientific programming is a highly oriented programming style for scientific calculations. It is distinguished from other types of programming by extreme correctness and stability of the final product, strict separation of scientific and interface parts, individuality of algorithms, and predominance of efficiency over universality.&lt;/p&gt;
+&lt;p&gt;Scientific programming is at the heart of any modern global research. All advanced technologies - from quantum computers to space programs - would not be possible without specialists in scientific programming, who are able to provide scientists with reliable and accurate tools for making discoveries.&lt;/p&gt;
+&lt;h2 id=&#34;specializations&#34;&gt;Specializations&lt;/h2&gt;
+&lt;p&gt;Scientists use a variety of programming languages, the choice of which depends on the type of problem and the author&amp;rsquo;s preferences. Historically, the first high-level programming language is Fortran; many well-established libraries for mathematical statistics and libraries for solving differential equations have been written in Fortran, which is relevant to economics and biology, respectively.&lt;/p&gt;
+&lt;p&gt;A simpler syntax has Python, also suitable for programming mathematical computations. Python language is used for data processing in mathematics, physics, economics, biology, chemistry and can work with some other &amp;ldquo;scientific&amp;rdquo; languages: Fortran, C++, C#.&lt;/p&gt;
+&lt;p&gt;In turn, C# allows programming on the .NET platform, adapting a program to a common language runtime (CLR) and speeding up development in operational scientific sessions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How was my week 💞🌠✈️🌷?</title>
+      <link>http://localhost:1313/post/last_week3/</link>
+      <pubDate>Fri, 03 May 2024 12:15:17 +0300</pubDate>
+      <guid>http://localhost:1313/post/last_week3/</guid>
+      <description>&lt;h1 id=&#34;this-week-went-very-well-&#34;&gt;This week went very well 🐣🌺💝&lt;/h1&gt;
+&lt;h2 id=&#34;monday&#34;&gt;Monday&lt;/h2&gt;
+&lt;p&gt;I had English classes in the morning and in the evening I didn&amp;rsquo;t take an umbrella and it rained heavily, I was all wet.&lt;/p&gt;
+&lt;h2 id=&#34;tuesday&#34;&gt;Tuesday&lt;/h2&gt;
+&lt;p&gt;I had a history pair and I successfully narrated a project, then I had an admission for a computer practical subject, I prepared very well so I got an admission. I also had PE where I practiced and socialized with friends.&lt;/p&gt;
+&lt;h2 id=&#34;wednesday&#34;&gt;Wednesday&lt;/h2&gt;
+&lt;p&gt;I had a pair of programming and matlogic, and in the evening I went for a run with my friend.&lt;/p&gt;
+&lt;h2 id=&#34;thursday&#34;&gt;Thursday&lt;/h2&gt;
+&lt;p&gt;In the afternoon there was a maths class, I went to the board and got a grade, then I packed my suitcase and went to the airport because I haven&amp;rsquo;t been home for 3 months.I was in the business lounge and ate a lot of delicious things. At night I met my family and I was happy&lt;/p&gt;
+&lt;h2 id=&#34;friday&#34;&gt;Friday&lt;/h2&gt;
+&lt;p&gt;I was home all day and watched my favorite show. And in the evening my parents and I went to the dacha.&lt;/p&gt;
+&lt;p&gt;Thanks for reading this post, subscribe to me not to miss the new post&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Report</title>
+      <link>http://localhost:1313/post/report/</link>
+      <pubDate>Wed, 17 Apr 2024 22:02:19 +0300</pubDate>
+      <guid>http://localhost:1313/post/report/</guid>
+      <description>&lt;h1 id=&#34;lets-talk-about-the-report-&#34;&gt;Let&amp;rsquo;s talk about the report 📋✏️&lt;/h1&gt;
+&lt;p&gt;Each project requires a report to summarize all the information and work. Creating reports in markdown is one of the easiest ways to save your time.&lt;/p&gt;
+&lt;p&gt;Every week we do laboratory work. Then we should prepare a report on our labs. We perform reports for laboratory work in the lightweight markup language markdown.&lt;/p&gt;
+&lt;h1 id=&#34;what-is-markdown&#34;&gt;What is MARKDOWN?✨😉&lt;/h1&gt;
+&lt;p&gt;Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form. Markdown is widely used in blogging, instant messaging, online forums, collaborative software, documentation pages, and readme files.&lt;/p&gt;
+&lt;h1 id=&#34;how-do-we-execute-the-report-&#34;&gt;How do we execute the report? ❓&lt;/h1&gt;
+&lt;p&gt;For each laboratory work, we have a template that we need to fill in with all the necessary information.
+The title page of the report contains information about the number of the lab, the topic and the author of the report. Next, we describe the purpose of the laboratory work, the task, as well as a theoretical introduction.
+And then the description of the main part of the work begins. Description of the work.
+We should describe the accomplishment of the work as fully and clearly as possible. To do this, we can divide the stages into several parts, insert screenshots and add a description, etc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New post about last week</title>
       <link>http://localhost:1313/post/last_week2/</link>
       <pubDate>Wed, 17 Apr 2024 21:33:08 +0300</pubDate>
       <guid>http://localhost:1313/post/last_week2/</guid>
-      <description></description>
+      <description>&lt;p&gt;It&amp;rsquo;s been a good week. First of all, I have completed the first stage of the control work. We started new topics in matanalysis and mathematical logic, I successfully completed laboratory tests on operating systems and did a lot of homework in other subjects. 📖📝&lt;/p&gt;
+&lt;p&gt;I was also a model at the final stage of the All-Russian Technology Olympiad. I had a pale blue beautiful dress in the style of Russian fairy tales👗&lt;/p&gt;
+&lt;p&gt;Over the weekend, I managed to go to the Moscow Zoo and take beautiful photos.🐼&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -352,7 +410,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-357268419&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-268179345&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -362,7 +420,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-357268419&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-268179345&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
