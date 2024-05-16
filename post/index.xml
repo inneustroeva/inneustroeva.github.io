@@ -5,12 +5,53 @@
     <link>http://localhost:1313/post/</link>
       <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 May 2024 12:15:57 +0300</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 May 2024 23:47:29 +0300</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>http://localhost:1313/post/</link>
     </image>
+    
+    <item>
+      <title>Fedora ⌨️💻📲📍</title>
+      <link>http://localhost:1313/post/fedora/</link>
+      <pubDate>Thu, 16 May 2024 23:47:29 +0300</pubDate>
+      <guid>http://localhost:1313/post/fedora/</guid>
+      <description>&lt;h2 id=&#34;fedora-workstation-is-one-of-the-most-widespread-gnulinux-distributions&#34;&gt;Fedora Workstation is one of the most widespread GNU/Linux distributions&lt;/h2&gt;
+&lt;p&gt;which is in the top 10 in popularity. Among linuxoids, it is famous for the fact that the most fashionable and advanced features appear in it before anyone else. For example, Fedora became one of the first versions of Linux to fully support Wayland, a modern interface rendering protocol.&lt;/p&gt;
+&lt;p&gt;Last year, the distribution celebrated its twentieth anniversary. On this occasion, we decided to recall the history of its appearance and consider the features for which users love it so much.&lt;/p&gt;
+&lt;h2 id=&#34;how-fedora-appeared&#34;&gt;How Fedora appeared&lt;/h2&gt;
+&lt;p&gt;In 1995, the IT company Red Hat released the first version of the paid enterprise Linux distribution — RHEL, or Red Hat Enterprise Linux. It quickly gained popularity due to its high stability, which was noticeably higher than all alternatives available at that time.&lt;/p&gt;
+&lt;p&gt;RHEL is a free distribution, but to use it in companies, you had to buy a subscription to technical support. Many users did not like this approach. At the same time, the project is based on the Linux kernel, that is, it has open source code — anyone can take the sources and build their own variation of Red Hat.&lt;/p&gt;
+&lt;p&gt;This is exactly the idea that occurred to Warren Togami, a student at the University of Hawaii, in 2002. He created his own distribution package based on the Red Hat installation package as a project, adding relevant and stable programs to it. This is how Fedora Linux appeared.&lt;/p&gt;
+&lt;p&gt;In 2003, Red Hat joined the work on it — the company funded the work, but left the development and development to the discretion of the community formed around it. This decision was part of the RHEL promotion strategy. The idea is simple — to gain trust in the company and its projects through the distribution of a free and convenient distribution.&lt;/p&gt;
+&lt;p&gt;The decision turned out to be successful. The distribution quickly began to gain popularity and positive reviews from Linux users. Today, Fedora is consistently among the top 10 best Linux distributions, and the number of users exceeded 1 million people already in 2016.&lt;/p&gt;
+&lt;h2 id=&#34;fedora-features&#34;&gt;Fedora Features&lt;/h2&gt;
+&lt;p&gt;Since it appeared a long time ago and continues to be supported, it has many features, but let&amp;rsquo;s focus on the main points:&lt;/p&gt;
+&lt;p&gt;Comes with standard GNOME&lt;/p&gt;
+&lt;p&gt;One of the biggest advantages is the standard GNOME desktop (an advanced desktop environment popular for Linux). Despite the fact that GNOME is one of the main Linux desktop environments, rare distributions have a standard version of it. Mostly GNOME comes with various modifications that try to mimic the graphical interface of the 90s.&lt;/p&gt;
+&lt;p&gt;Fedora provides one of the cleanest, most modern examples of GNOME.&lt;/p&gt;
+&lt;p&gt;User-friendly
+Many operating systems try to help new users adapt using graphical installers and welcome screens, but no one expected this from the free Fedora. Nevertheless, it supports ready-made Flatpak in addition to RPM files.&lt;/p&gt;
+&lt;p&gt;Provides advanced software&lt;/p&gt;
+&lt;p&gt;Fedora is updated every 6 months, without the LTS version, so users receive current changes, the latest version of which is always the flagship.&lt;/p&gt;
+&lt;p&gt;Unlike most competitors, Fedora delivers cutting-edge open source software. It was the first major distribution to switch from ext4 to Btrfs, from X11 to Wayland, from PulseAudio to PipeWire.&lt;/p&gt;
+&lt;p&gt;Reliable&lt;/p&gt;
+&lt;p&gt;When fundamental changes are made to the Fedora, you can be sure that they are already ready for active mass use.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Last week 🌃🌧❄️✨🌷</title>
+      <link>http://localhost:1313/post/last_week_4/</link>
+      <pubDate>Thu, 16 May 2024 23:23:09 +0300</pubDate>
+      <guid>http://localhost:1313/post/last_week_4/</guid>
+      <description>&lt;p&gt;This week has been quite productive. I spent an unforgettable time at home, in my hometown. I visited the cottage and went to the sauna.&lt;/p&gt;
+&lt;p&gt;I also studied a lot, because we will have tests in May. Some couples were online, so I didn&amp;rsquo;t miss any important couples. 📂✏️📝💻&lt;/p&gt;
+&lt;p&gt;We were not lucky with the weather at all. It was very cold and even snowed, there was a lot of rain, but sometimes the sun came out. ❄️⛄️🌥💦&lt;/p&gt;
+&lt;p&gt;Thank you for reading this post, subscribe to me.👍😘🤩&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Programming_and_science 📊📖💻⌨️🖱</title>
@@ -410,7 +451,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-268179345&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-273184956&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -420,7 +461,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-268179345&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-273184956&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

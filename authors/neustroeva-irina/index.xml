@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neustroeva Irina | Academic</title>
+    <link>http://localhost:1313/authors/neustroeva-irina/</link>
+      <atom:link href="http://localhost:1313/authors/neustroeva-irina/index.xml" rel="self" type="application/rss+xml" />
+    <description>Neustroeva Irina</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Apr 2024 17:24:14 +0300</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Neustroeva Irina</title>
+      <link>http://localhost:1313/authors/neustroeva-irina/</link>
+    </image>
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/post-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/markdown/</link>
+      <pubDate>Fri, 05 Apr 2024 17:24:14 +0300</pubDate>
+      <guid>http://localhost:1313/post-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/markdown/</guid>
+      <description>&lt;h2 id=&#34;what-is-markdown&#34;&gt;What is Markdown?&lt;/h2&gt;
+&lt;p&gt;Markdown is a text markup language created by writer and blogger John Gruber. It is designed to create beautifully designed texts in regular TXT files. You don&amp;rsquo;t need bulky processors like Word or Pages to create documents with bold or italics, citations, links, and even tables. It is enough to remember the simple rules of Markdown, and you can write even in a &amp;ldquo;Notebook&amp;rdquo;. Although specialized Markdown editors are, of course, much more convenient.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-use-the-markup-language&#34;&gt;How to use the markup language&lt;/h2&gt;
+&lt;p&gt;A person writes text in any editor and adds special combinations of standard characters to it. This is a markup, it shows where the text should be bold, where it should be a title, and where the list is needed. You can use symbols to mark up headings, text selections, and even complex structures like tables. Special converters form a ready-made document based on the markup. It&amp;rsquo;s similar to using HTML, but the markdown is simpler, the text in it is more readable. Converters are either initially available in a text editor, for example in a note-taking application, or are downloaded separately.&lt;/p&gt;
+&lt;h2 id=&#34;markup-rules&#34;&gt;Markup rules&lt;/h2&gt;
+&lt;p&gt;The basic syntax. It is very simple: the text is &amp;ldquo;wrapped&amp;rdquo; in characters or they are placed before the line. This is how the headlines will look, for example.&lt;/p&gt;
+&lt;p&gt;. # H1 header (first level, for example the title of the text)&lt;/p&gt;
+&lt;p&gt;. ## H2 header (second level, headers)&lt;/p&gt;
+&lt;p&gt;. ### H3 heading (third level, intermediate subheadings)&lt;/p&gt;
+&lt;p&gt;Basic text formatting can be applied in the markdown. You won&amp;rsquo;t be able to insert a letter or a handwritten font, but it&amp;rsquo;s easy to highlight important areas.&lt;/p&gt;
+&lt;p&gt;· &lt;em&gt;Italics&lt;/em&gt; or &lt;em&gt;cursive&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;· &lt;strong&gt;Bold text&lt;/strong&gt; or &lt;strong&gt;bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;· &lt;em&gt;&lt;strong&gt;Bold and underlined text&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;· &amp;gt; Quote (an angle bracket is placed before each line of the quote)&lt;/p&gt;
+&lt;p&gt;· — Bulleted list item&lt;/p&gt;
+&lt;p&gt;· 1. The first item of the numbered list&lt;/p&gt;
+&lt;p&gt;· 2. The second item of the numbered list (and so on)&lt;/p&gt;
+&lt;h3 id=&#34;inserting-materials&#34;&gt;Inserting materials&lt;/h3&gt;
+&lt;p&gt;Markup allows you to insert different elements into the text: links and images, which will then &amp;ldquo;pull up&amp;rdquo; into the document when formatting is applied.&lt;/p&gt;
+&lt;p&gt;· [link_text](any link) to insert links&lt;/p&gt;
+&lt;p&gt;· [caption to the picture](link to the picture) to insert pictures into the text&lt;/p&gt;
+&lt;p&gt;· ***, — or ___ — a horizontal line for the entire line that separates part of the text from another&lt;/p&gt;
+&lt;p&gt;And if there should be an asterisk or any other &amp;ldquo;special&amp;rdquo; character in the text that can be read incorrectly, you need to put a backslash in front of it. For example, like this: *. Then the symbol will be displayed in the text as it should and is not considered as a markup rule.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
