@@ -5,7 +5,7 @@
     <link>http://localhost:1313/post/</link>
       <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 May 2025 20:24:13 +0300</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 04 May 2025 21:08:42 +0300</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
@@ -13,21 +13,85 @@
     </image>
     
     <item>
+      <title>Stepik2</title>
+      <link>http://localhost:1313/post/stepik2/</link>
+      <pubDate>Sun, 04 May 2025 21:08:42 +0300</pubDate>
+      <guid>http://localhost:1313/post/stepik2/</guid>
+      <description>&lt;p&gt;Hello friends, today I continue to write a post about my Stepika course and today the topic of my post is: PC/Phone protection&lt;/p&gt;
+&lt;h1 id=&#34;how-and-why-to-encrypt-a-hard-drivee&#34;&gt;How and why to encrypt a hard drive?e?&lt;/h1&gt;
+&lt;p&gt;Disk encryption protects data in case of loss or theft of the device. Without the key, the attacker will not gain access to the files.&lt;/p&gt;
+&lt;h3 id=&#34;how-it-works&#34;&gt;How it works:&lt;/h3&gt;
+&lt;p&gt;Encryption key generation (usually AES-256)&lt;/p&gt;
+&lt;p&gt;Data encryption (of the entire disk or individual partitions)&lt;/p&gt;
+&lt;p&gt;Access only after entering the password&lt;/p&gt;
+&lt;h3 id=&#34;popular-tools&#34;&gt;Popular tools:&lt;/h3&gt;
+&lt;p&gt;Windows: BitLocker&lt;/p&gt;
+&lt;p&gt;mac OS: FileVault&lt;/p&gt;
+&lt;p&gt;Linux: LUKS&lt;/p&gt;
+&lt;p&gt;Free: VeraCrypt&lt;/p&gt;
+&lt;p&gt;Important: the key must be stored separately from the encrypted disk (on a USB flash drive, in the TPM module, or with the administrator).&lt;/p&gt;
+&lt;h1 id=&#34;how-do-i-create-and-store-strong-passwords&#34;&gt;How do I create and store strong passwords?&lt;/h1&gt;
+&lt;p&gt;A password is the main way to protect your data. A good password:&lt;/p&gt;
+&lt;p&gt;Long (12+ characters)&lt;/p&gt;
+&lt;p&gt;Contains letters (upper/lower case), numbers, and special characters&lt;/p&gt;
+&lt;p&gt;Unique for each service&lt;/p&gt;
+&lt;h3 id=&#34;popular-errors&#34;&gt;Popular errors:&lt;/h3&gt;
+&lt;p&gt;Simple combinations (12345, qwerty)&lt;/p&gt;
+&lt;p&gt;Repeating passwords on different websites&lt;/p&gt;
+&lt;p&gt;How are passwords stored on servers?&lt;/p&gt;
+&lt;p&gt;Hash functions (SHA-2, SHA-3, GOST) are used&lt;/p&gt;
+&lt;p&gt;A &amp;ldquo;salt&amp;rdquo; (random data) is added to protect weak passwords.&lt;/p&gt;
+&lt;h3 id=&#34;safety-tips&#34;&gt;Safety Tips:&lt;/h3&gt;
+&lt;p&gt;Use a password manager (Keepassx, Keychain)&lt;/p&gt;
+&lt;p&gt;Enable two-factor authentication&lt;/p&gt;
+&lt;p&gt;Change passwords regularly&lt;/p&gt;
+&lt;p&gt;Check for leaks on haveibeenpwned.com&lt;/p&gt;
+&lt;h3 id=&#34;conclusion-a-long-complex-and-unique-password--manager--reliable-protection&#34;&gt;Conclusion: A long, complex and unique password + manager = reliable protection.&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Stepik1</title>
       <link>http://localhost:1313/post/stepik1/</link>
       <pubDate>Sun, 04 May 2025 20:24:13 +0300</pubDate>
       <guid>http://localhost:1313/post/stepik1/</guid>
-      <description>&lt;h1 id=&#34;как-работает-интернет-основы-модели-tcpip&#34;&gt;Как работает интернет: основы модели TCP/IP&lt;/h1&gt;
-&lt;p&gt;Когда вы вводите URL в браузере (например, yandex.ru), загрузка страницы происходит благодаря работе сетевых протоколов. Интернет функционирует по модели TCP/IP, состоящей из четырех уровней:&lt;/p&gt;
-&lt;p&gt;Прикладной уровень – отвечает за взаимодействие программ (браузеров, почты) с сетью. Примеры протоколов: HTTP(S), FTP, SMTP.&lt;/p&gt;
-&lt;p&gt;Транспортный уровень – обеспечивает передачу данных между устройствами. Основные протоколы:&lt;/p&gt;
-&lt;p&gt;TCP – гарантирует надежную доставку (используется для веб-страниц, почты).&lt;/p&gt;
-&lt;p&gt;UDP – обеспечивает скорость, но без гарантии доставки (видеозвонки, стримы).&lt;/p&gt;
-&lt;p&gt;Сетевой уровень – маршрутизирует данные через IP-адреса (IPv4 или IPv6), определяя путь пакетов между устройствами.&lt;/p&gt;
-&lt;p&gt;Канальный уровень – передает данные физически (Ethernet, Wi-Fi).&lt;/p&gt;
-&lt;h1 id=&#34;как-передается-запрос&#34;&gt;Как передается запрос?&lt;/h1&gt;
-&lt;p&gt;Браузер отправляет запрос через прикладной уровень → TCP разбивает данные на сегменты → IP доставляет их через маршрутизаторы к серверу. Сервер обрабатывает запрос и отправляет ответ обратно по тому же пути.&lt;/p&gt;
-&lt;p&gt;DNS преобразует доменные имена (например, yandex.ru) в IP-адреса, а Traceroute помогает отследить путь пакета.&lt;/p&gt;
+      <description>&lt;p&gt;Hello everyone, I recently took a course in Computer science and today I want to leave a post about it.
+Today I&amp;rsquo;m going to talk about Online Security. 🖥💡☑️🔗🔐&lt;/p&gt;
+&lt;h1 id=&#34;how-the-internet-works-the-basics-of-the-tcpip-model&#34;&gt;How the Internet works: The basics of the TCP/IP model&lt;/h1&gt;
+&lt;p&gt;When you enter the URL in the browser (for example, yandex.ru ), the page is loaded due to the operation of network protocols. The Internet operates according to the TCP/IP model, which consists of four levels:&lt;/p&gt;
+&lt;p&gt;The application layer is responsible for the interaction of programs (browsers, mail) with the network. Examples of protocols: HTTP(S), FTP, SMTP.&lt;/p&gt;
+&lt;p&gt;Transport layer – provides data transfer between devices. Basic protocols:&lt;/p&gt;
+&lt;p&gt;TCP guarantees reliable delivery (used for web pages and mail).&lt;/p&gt;
+&lt;p&gt;UDP – provides speed, but without a guarantee of delivery (video calls, streams).&lt;/p&gt;
+&lt;p&gt;Network layer – routes data through IP addresses (IPv4 or IPv6), determining the path of packets between devices.&lt;/p&gt;
+&lt;p&gt;Link layer – transmits data physically (Ethernet, Wi-Fi).&lt;/p&gt;
+&lt;h1 id=&#34;how-is-the-request-transmitted&#34;&gt;How is the request transmitted?&lt;/h1&gt;
+&lt;p&gt;The browser sends the request through the application layer → TCP splits the data into segments → IP delivers it through routers to the server. The server processes the request and sends the response back along the same path.&lt;/p&gt;
+&lt;p&gt;DNS converts domain names (for example, yandex.ru ) to the IP address, and Traceroute helps to track the packet path.&lt;/p&gt;
+&lt;h1 id=&#34;what-are-cookies-and-why-are-they-needed&#34;&gt;What are cookies and why are they needed?&lt;/h1&gt;
+&lt;p&gt;Cookies are small data files that websites store in your browser for identification and personalization. They can be:&lt;/p&gt;
+&lt;p&gt;Session data is deleted after the browser is closed (for example, a shopping cart in an online store).&lt;/p&gt;
+&lt;p&gt;Permanent – they are stored longer so that you don&amp;rsquo;t have to enter your username/password every time.&lt;/p&gt;
+&lt;p&gt;Third-party (third-party) – used by advertising services to track activities on different sites.&lt;/p&gt;
+&lt;p&gt;Pros: authorization without re-entering data, saving settings (language, shopping cart).
+Cons: data collection for targeted advertising, risks of leakage (for example, in public Wi-Fi).&lt;/p&gt;
+&lt;p&gt;Tip: you can disable third—party cookies in the browser settings - this will increase privacy without loss of convenience.&lt;/p&gt;
+&lt;h1 id=&#34;how-does-tor-work-for-online-anonymity&#34;&gt;How does Tor work for online anonymity?&lt;/h1&gt;
+&lt;p&gt;Tor (The Onion Router) is a browser that provides anonymity through onion routing. Your traffic passes through 3 random nodes:&lt;/p&gt;
+&lt;p&gt;The security node knows your IP, but not the destination address.&lt;/p&gt;
+&lt;p&gt;The intermediate node does not see either the sender or the recipient.&lt;/p&gt;
+&lt;p&gt;The exit node knows the site&amp;rsquo;s address, but not your IP.&lt;/p&gt;
+&lt;p&gt;Each data layer is encrypted separately (like an onion peel). The speed is lower, but the traffic is anonymous. The output IP is changing (it can be in any country).&lt;/p&gt;
+&lt;p&gt;Important: Tor does not guarantee 100% anonymity, but it hides your location. In some countries, its nodes are prohibited.&lt;/p&gt;
+&lt;h1 id=&#34;wi-fi-security-how-to-protect-your-network&#34;&gt;Wi-Fi Security: how to protect your network&lt;/h1&gt;
+&lt;p&gt;Wi-Fi works according to IEEE 802.11 standards (for example, 802.11ac, 802.11ac). Encryption protocols are used to protect data.:&lt;/p&gt;
+&lt;p&gt;WEP is outdated (unreliable, weak 40–bit key).&lt;/p&gt;
+&lt;p&gt;WPA/WPA2 is safer (AES encryption, 128+ bit key).&lt;/p&gt;
+&lt;p&gt;WPA3 is the most modern (protects even weak passwords).&lt;/p&gt;
+&lt;p&gt;Authentication modes:&lt;/p&gt;
+&lt;p&gt;Personal – by password (for home).&lt;/p&gt;
+&lt;p&gt;Enterprise – through the user base (for companies).&lt;/p&gt;
+&lt;p&gt;Tip: Use WPA 3 and complex passwords. Disable WEP – it is vulnerable to hacking.&lt;/p&gt;
 </description>
     </item>
     
@@ -470,7 +534,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-798463152&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-518642397&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -480,7 +544,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-798463152&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-518642397&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

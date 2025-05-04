@@ -13,11 +13,568 @@
     </image>
     
     <item>
+      <title></title>
+      <link>http://localhost:1313/project/example/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/example/</guid>
+      <description>&lt;h1 id=&#34;how-the-internet-works-the-basics-of-the-tcpip-model&#34;&gt;How the Internet works: The basics of the TCP/IP model&lt;/h1&gt;
+&lt;p&gt;When you enter the URL in the browser (for example, yandex.ru ), the page is loaded due to the operation of network protocols. The Internet operates according to the TCP/IP model, which consists of four levels:&lt;/p&gt;
+&lt;p&gt;The application layer is responsible for the interaction of programs (browsers, mail) with the network. Examples of protocols: HTTP(S), FTP, SMTP.&lt;/p&gt;
+&lt;p&gt;Transport layer – provides data transfer between devices. Basic protocols:&lt;/p&gt;
+&lt;p&gt;TCP guarantees reliable delivery (used for web pages and mail).&lt;/p&gt;
+&lt;p&gt;UDP – provides speed, but without a guarantee of delivery (video calls, streams).&lt;/p&gt;
+&lt;p&gt;Network layer – routes data through IP addresses (IPv4 or IPv6), determining the path of packets between devices.&lt;/p&gt;
+&lt;p&gt;Link layer – transmits data physically (Ethernet, Wi-Fi).&lt;/p&gt;
+&lt;h1 id=&#34;how-is-the-request-transmitted&#34;&gt;How is the request transmitted?&lt;/h1&gt;
+&lt;p&gt;The browser sends the request through the application layer → TCP splits the data into segments → IP delivers it through routers to the server. The server processes the request and sends the response back along the same path.&lt;/p&gt;
+&lt;p&gt;DNS converts domain names (for example, yandex.ru ) to the IP address, and Traceroute helps to track the packet path.&lt;/p&gt;
+&lt;h1 id=&#34;what-are-cookies-and-why-are-they-needed&#34;&gt;What are cookies and why are they needed?&lt;/h1&gt;
+&lt;p&gt;Cookies are small data files that websites store in your browser for identification and personalization. They can be:&lt;/p&gt;
+&lt;p&gt;Session data is deleted after the browser is closed (for example, a shopping cart in an online store).&lt;/p&gt;
+&lt;p&gt;Permanent – they are stored longer so that you don&amp;rsquo;t have to enter your username/password every time.&lt;/p&gt;
+&lt;p&gt;Third-party (third-party) – used by advertising services to track activities on different sites.&lt;/p&gt;
+&lt;p&gt;Pros: authorization without re-entering data, saving settings (language, shopping cart).
+Cons: data collection for targeted advertising, risks of leakage (for example, in public Wi-Fi).&lt;/p&gt;
+&lt;p&gt;Tip: you can disable third—party cookies in the browser settings - this will increase privacy without loss of convenience.&lt;/p&gt;
+&lt;h1 id=&#34;how-does-tor-work-for-online-anonymity&#34;&gt;How does Tor work for online anonymity?&lt;/h1&gt;
+&lt;p&gt;Tor (The Onion Router) is a browser that provides anonymity through onion routing. Your traffic passes through 3 random nodes:&lt;/p&gt;
+&lt;p&gt;The security node knows your IP, but not the destination address.&lt;/p&gt;
+&lt;p&gt;The intermediate node does not see either the sender or the recipient.&lt;/p&gt;
+&lt;p&gt;The exit node knows the site&amp;rsquo;s address, but not your IP.&lt;/p&gt;
+&lt;p&gt;Each data layer is encrypted separately (like an onion peel). The speed is lower, but the traffic is anonymous. The output IP is changing (it can be in any country).&lt;/p&gt;
+&lt;p&gt;Important: Tor does not guarantee 100% anonymity, but it hides your location. In some countries, its nodes are prohibited.&lt;/p&gt;
+&lt;h1 id=&#34;wi-fi-security-how-to-protect-your-network&#34;&gt;Wi-Fi Security: how to protect your network&lt;/h1&gt;
+&lt;p&gt;Wi-Fi works according to IEEE 802.11 standards (for example, 802.11ac, 802.11ac). Encryption protocols are used to protect data.:&lt;/p&gt;
+&lt;p&gt;WEP is outdated (unreliable, weak 40–bit key).&lt;/p&gt;
+&lt;p&gt;WPA/WPA2 is safer (AES encryption, 128+ bit key).&lt;/p&gt;
+&lt;p&gt;WPA3 is the most modern (protects even weak passwords).&lt;/p&gt;
+&lt;p&gt;Authentication modes:&lt;/p&gt;
+&lt;p&gt;Personal – by password (for home).&lt;/p&gt;
+&lt;p&gt;Enterprise – through the user base (for companies).&lt;/p&gt;
+&lt;p&gt;Tip: Use WPA 3 and complex passwords. Disable WEP – it is vulnerable to hacking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>External Project</title>
       <link>http://localhost:1313/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/external-project/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
+&lt;p&gt;Выполненить контрольные задания первого блока &amp;ldquo;Безопасность в сети&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo;.&lt;/p&gt;
+&lt;h1 id=&#34;выполнение-заданий-блока-основы-кибербезопасности&#34;&gt;Выполнение заданий блока &amp;ldquo;Основы Кибербезопасности&amp;rdquo;&lt;/h1&gt;
+&lt;h2 id=&#34;как-работает-интернет-базовые-сетевые-протоколы&#34;&gt;Как работает интернет: базовые сетевые протоколы&lt;/h2&gt;
+&lt;p&gt;Протокол HTTP(S) протокол прикладного уровня, ответ на вопрос 1 - HTTPS (рис. [-@fig:001]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/1.png&#34; alt=&#34;Вопрос 2.1.1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:001 width=70%}&lt;/p&gt;
+&lt;p&gt;На транспортном уровне существует два примера протокола: первый - это TCP, в честь которого названа модель. (рис. [-@fig:002]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/2.png&#34; alt=&#34;Вопрос 2.1.2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:002 width=70%}&lt;/p&gt;
+&lt;p&gt;Т.к адрес состоит из большего набора чисел, а именно это 4 или 6 цифер от 0 до 255. В двух вариантах встречаются цифры больше 255, что неверно(рис. [-@fig:003]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/3.png&#34; alt=&#34;Вопрос 2.1.3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:003 width=70%}&lt;/p&gt;
+&lt;p&gt;Основная задача DNC это сопоставлять название ( доменное имя, с корекстым IP-адресом) с тем, где лежит этот сервер, этот сайт. (рис. [-@fig:004]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/4.png&#34; alt=&#34;Вопрос 2.1.4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:004 width=70%}&lt;/p&gt;
+&lt;p&gt;Классификация протоколов в модели TCP/IP:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Прикладной уровень: HTTP, RTSP, FTP, DNS.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Транспортный уровень: TCP, UDP, SCTP, DCCP.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Сетевой  уровень: IP.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Уровень сетевого доступа (Канальный) (Link Layer): Ethernet, IEEE 802.11, WLAN, SLIP, Token Ring, ATM и MPLS(рис. [-@fig:005]).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/5.png&#34; alt=&#34;Вопрос 2.1.5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:005 width=70%}&lt;/p&gt;
+&lt;p&gt;Протокол http передает не зашифрованные данные, а протокол https уже будет передавать зашифрованные данные (рис. [-@fig:006]).&lt;/p&gt;
+&lt;p&gt;https передает зашифрованные данные, поэтому  одна из фаз это передача данных, другая должна быть рукопожатием&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/6.png&#34; alt=&#34;Вопрос 2.1.6&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:006 width=70%}&lt;/p&gt;
+&lt;p&gt;TLS определяется и клиентом, и сервером, чтобы было возможно подключиться (рис. [-@fig:007]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/7.png&#34; alt=&#34;Вопрос 2.1.7&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:007 width=70%}&lt;/p&gt;
+&lt;p&gt;TLS определяется клиентом и сервером, чтобы возможно было подключиться (рис. [-@fig:008]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/8.png&#34; alt=&#34;Вопрос 2.1.8&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:008 width=70%}&lt;/p&gt;
+&lt;p&gt;Фаза рукопожатия вкючает в себя:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;выбор параметров, протоколов&lt;/li&gt;
+&lt;li&gt;аутентификация (как минимум, сервера)&lt;/li&gt;
+&lt;li&gt;формируется общий секретный ключ K&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Следовательно вариант с шифрованием лишний (рис. [-@fig:009]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/9.png&#34; alt=&#34;Вопрос 2.1.9&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:009 width=70%}&lt;/p&gt;
+&lt;h2 id=&#34;персонализация-сети&#34;&gt;Персонализация сети&lt;/h2&gt;
+&lt;p&gt;Куки хранят в себе список параметров и их значений. Этими параметрами могут быть id пользователя, id сессии, тип браузера и некоторые действия пользователей(рис. [-@fig:010]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/10.png&#34; alt=&#34;Вопрос 2.2.1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:010 width=70%}&lt;/p&gt;
+&lt;p&gt;Куки не делают соединение надежным (рис. [-@fig:011]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/11.png&#34; alt=&#34;Вопрос 2.2.2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:011 width=70%}&lt;/p&gt;
+&lt;p&gt;Куки генерируются сервером(рис. [-@fig:012]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/12.png&#34; alt=&#34;Вопрос 2.2.3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:012 width=70%}&lt;/p&gt;
+&lt;p&gt;Куки бывают сессионные, удаляются при закрытии окна браузера (рис. [-@fig:013]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/13.png&#34; alt=&#34;Вопрос 2.2.4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:013 width=70%}&lt;/p&gt;
+&lt;h2 id=&#34;браузер-tor-анонимизация&#34;&gt;Браузер TOR. Анонимизация&lt;/h2&gt;
+&lt;p&gt;В луковой модели маршрутизации у нас тоже есть узлы. Они разделяются на охранный узел, промежуточный и выходной. В браузере Tor всегда есть три роутера, их не больше и не меньше (рис. [-@fig:014]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/14.png&#34; alt=&#34;Вопрос 2.3.1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:014 width=70%}&lt;/p&gt;
+&lt;p&gt;IP-адрес не должен быть известен охранному и промежуточному узлам (рис. [-@fig:015]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/15.png&#34; alt=&#34;Вопрос 2.3.2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:015 width=70%}&lt;/p&gt;
+&lt;p&gt;В анонимных сетях, таких как Tor, общий секретный ключ для сквозного шифрования требует участия всех трех типов узлов: охранного, промежуточного и выходного. Охранный узел сам по себе не обеспечивает генерацию ключа. Каждый узел вносит свой вклад в криптографический протокол (например, Diffie-Hellman), обеспечивая анонимность и защиту от перехвата. (рис. [-@fig:016]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/16.png&#34; alt=&#34;Вопрос 2.3.3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:016 width=70%}&lt;/p&gt;
+&lt;p&gt;Для получения пакетов не нужно использовать TOR. TOR — это технология, которая позволяет с некоторым успехом скрыть личность человека в интернете.(рис. [-@fig:017]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/17.png&#34; alt=&#34;Вопрос 2.3.4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:017 width=70%}&lt;/p&gt;
+&lt;h2 id=&#34;беспроводные-сети-wi-fi&#34;&gt;Беспроводные сети Wi-fi&lt;/h2&gt;
+&lt;p&gt;WiFi - это технология беспроводной локальной сети, она основана на стандарте IEEE 802.11 (рис. [-@fig:018]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/18.png&#34; alt=&#34;Вопрос 2.4.1&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:018 width=70%}&lt;/p&gt;
+&lt;p&gt;WiFi работает на самом нижнем канальном уровне (рис. [-@fig:019]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/19.png&#34; alt=&#34;Вопрос 2.4.2&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:019 width=70%}&lt;/p&gt;
+&lt;p&gt;WEP - устаревший и небезопасный метод шифрования WiFi из-за короткой длины ключа (40 бит), что делает его легко взламываемым. Использовать WEP категорически не рекомендуется.(рис. [-@fig:020]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/20.png&#34; alt=&#34;Вопрос 2.4.3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:020 width=70%}&lt;/p&gt;
+&lt;p&gt;Безопасность WiFi подразумевает защиту передачи данных между устройством (телефон, компьютер) и роутером (подключенным к интернету), осуществляемую с помощью шифрования и аутентификации.(рис. [-@fig:021]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/21.png&#34; alt=&#34;Вопрос 2.4.4&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:021 width=70%}&lt;/p&gt;
+&lt;p&gt;WPA2 Personal предназначен для домашнего использования, а WPA2 Enterprise - для коммерческих организаций. (рис. [-@fig:022]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/22.png&#34; alt=&#34;Вопрос 2.4.5&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:022 width=70%}&lt;/p&gt;
+&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
+&lt;p&gt;В результате выполнения блока &amp;ldquo;Безопасность в сети&amp;rdquo; я узнала, как работают сетевые пратаколы, куки-файлы, сети вайфай и для чего нужен браузер Tor.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
